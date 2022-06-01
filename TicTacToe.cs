@@ -258,10 +258,6 @@ namespace Tic_Tac_Toe
                 P2score.Text += 1;
                 MessageBox.Show("Player O win!");
             }
-            else
-            {
-                MessageBox.Show("DRAW");
-            }
         }
     }
 }
