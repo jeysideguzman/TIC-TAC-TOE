@@ -156,6 +156,21 @@ namespace Tic_Tac_Toe
                 btn9.BackColor = Color.Red;
                 MessageBox.Show("Player X win!");
             }
+            else if (btn1.Text == "X" && btn5.Text == "X" && btn9.Text == "X")
+            {
+                return;
+                btn4.BackColor = Color.Red;
+                btn5.BackColor = Color.Red;
+                btn6.BackColor = Color.Red;
+                MessageBox.Show("Player X win!");
+            }
+            else if (btn3.Text == "X" && btn5.Text == "X" && btn7.Text == "X")
+            {
+                btn3.BackColor = Color.Red;
+                btn5.BackColor = Color.Red;
+                btn7.BackColor = Color.Red;
+                MessageBox.Show("Player X win!");
+            }
         }
     }
 }
