@@ -226,6 +226,10 @@ namespace Tic_Tac_Toe
                 btn7.BackColor = Color.Blue;
                 MessageBox.Show("Player O win!");
             }
+            else
+            {
+                MessageBox.Show("DRAW");
+            }
         }
     }
 }
