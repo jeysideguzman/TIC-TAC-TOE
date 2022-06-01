@@ -40,9 +40,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btn8 = new System.Windows.Forms.Button();
-            this.P1score = new System.Windows.Forms.Label();
-            this.P2score = new System.Windows.Forms.Label();
+            this.PXscore = new System.Windows.Forms.Label();
+            this.POscore = new System.Windows.Forms.Label();
             this.btnrestart = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn1
@@ -136,7 +139,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.label1.BackColor = System.Drawing.Color.Gray;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(86, 8);
@@ -150,22 +153,22 @@
             this.label3.AutoSize = true;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(483, 130);
+            this.label3.Location = new System.Drawing.Point(464, 107);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 39);
+            this.label3.Size = new System.Drawing.Size(94, 39);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Player 1 ";
+            this.label3.Text = "Player";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(633, 130);
+            this.label4.Location = new System.Drawing.Point(634, 107);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 39);
+            this.label4.Size = new System.Drawing.Size(94, 39);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Player 2 ";
+            this.label4.Text = "Player";
             // 
             // btn8
             // 
@@ -178,27 +181,27 @@
             this.btn8.UseVisualStyleBackColor = false;
             this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
-            // P1score
+            // PXscore
             // 
-            this.P1score.AutoSize = true;
-            this.P1score.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.P1score.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P1score.Location = new System.Drawing.Point(682, 179);
-            this.P1score.Name = "P1score";
-            this.P1score.Size = new System.Drawing.Size(2, 39);
-            this.P1score.TabIndex = 20;
-            this.P1score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PXscore.AutoSize = true;
+            this.PXscore.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.PXscore.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PXscore.Location = new System.Drawing.Point(694, 179);
+            this.PXscore.Name = "PXscore";
+            this.PXscore.Size = new System.Drawing.Size(2, 39);
+            this.PXscore.TabIndex = 20;
+            this.PXscore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // P2score
+            // POscore
             // 
-            this.P2score.AutoSize = true;
-            this.P2score.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.P2score.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P2score.Location = new System.Drawing.Point(530, 179);
-            this.P2score.Name = "P2score";
-            this.P2score.Size = new System.Drawing.Size(2, 39);
-            this.P2score.TabIndex = 21;
-            this.P2score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.POscore.AutoSize = true;
+            this.POscore.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.POscore.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.POscore.Location = new System.Drawing.Point(546, 179);
+            this.POscore.Name = "POscore";
+            this.POscore.Size = new System.Drawing.Size(2, 39);
+            this.POscore.TabIndex = 21;
+            this.POscore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnrestart
             // 
@@ -212,15 +215,50 @@
             this.btnrestart.Text = "Restart";
             this.btnrestart.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(564, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 65);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "O";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(734, 91);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 65);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "X";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(394, 179);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(101, 39);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Score :";
+            // 
             // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(768, 494);
+            this.ClientSize = new System.Drawing.Size(846, 484);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnrestart);
-            this.Controls.Add(this.P2score);
-            this.Controls.Add(this.P1score);
+            this.Controls.Add(this.POscore);
+            this.Controls.Add(this.PXscore);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -257,9 +295,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn8;
-        private System.Windows.Forms.Label P1score;
-        private System.Windows.Forms.Label P2score;
+        private System.Windows.Forms.Label PXscore;
+        private System.Windows.Forms.Label POscore;
         private System.Windows.Forms.Button btnrestart;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 

@@ -18,8 +18,9 @@ namespace Tic_Tac_Toe
         }
         string[] GAME = new string[9];
         int playerturn = 0;
-        int player1wins = 0;
-        int player2wins = 0;
+
+        int playerOXwins = 0;  
+        
 
         public string returnsym(int turn)
         {
@@ -112,120 +113,108 @@ namespace Tic_Tac_Toe
 
         public void checker()
         {
-            checker(player1wins);
+            checker(playerOXwins);
         }
 
-        public void checker(int player1wins)
+        public void checker(int playerOXwins)
         {
             if (btn1.Text == "X" && btn2.Text == "X" && btn3.Text == "X")
             {
                 btn1.BackColor = Color.Red;
                 btn2.BackColor = Color.Red;
-                btn3.BackColor = Color.Red;
-                player1wins++;
-                P1score.Text += 1;
-                MessageBox.Show("Player X win!");
+                btn3.BackColor = Color.Red;               
+                PXscore.Text += 1;
+                MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn4.Text == "X" && btn5.Text == "X" && btn6.Text == "X")
             {
                 btn4.BackColor = Color.Red;
                 btn5.BackColor = Color.Red;
-                btn6.BackColor = Color.Red;
-                player1wins++;
-                P1score.Text += 1;
-                MessageBox.Show("Player X win!");
+                btn6.BackColor = Color.Red;               
+                PXscore.Text += 1;
+                MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn7.Text == "X" && btn8.Text == "X" && btn9.Text == "X")
             {
                 btn7.BackColor = Color.Red;
                 btn8.BackColor = Color.Red;
-                btn9.BackColor = Color.Red;
-                player1wins++;
-                P1score.Text += 1;
-                MessageBox.Show("Player X win!");
+                btn9.BackColor = Color.Red;                
+                PXscore.Text += 1;
+                MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn1.Text == "X" && btn4.Text == "X" && btn7.Text == "X")
             {
                 btn1.BackColor = Color.Red;
                 btn4.BackColor = Color.Red;
-                btn7.BackColor = Color.Red;
-                player1wins++;
-                P1score.Text += 1;
-                MessageBox.Show("Player X win!");
+                btn7.BackColor = Color.Red;              
+                PXscore.Text += 1;
+                MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn2.Text == "X" && btn5.Text == "X" && btn8.Text == "X")
             {
                 btn2.BackColor = Color.Red;
                 btn5.BackColor = Color.Red;
-                btn8.BackColor = Color.Red;
-                player1wins++;
-                P1score.Text += 1;
-                MessageBox.Show("Player X win!");
+                btn8.BackColor = Color.Red;                
+                PXscore.Text += 1;
+                MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn3.Text == "X" && btn6.Text == "X" && btn9.Text == "X")
             {
                 btn3.BackColor = Color.Red;
                 btn6.BackColor = Color.Red;
-                btn9.BackColor = Color.Red;
-                player1wins++;
-                P1score.Text += 1;
-                MessageBox.Show("Player X win!");
+                btn9.BackColor = Color.Red;                
+                PXscore.Text += 1;
+                MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn1.Text == "X" && btn5.Text == "X" && btn9.Text == "X")
             {
-                return;
                 btn4.BackColor = Color.Red;
                 btn5.BackColor = Color.Red;
-                btn6.BackColor = Color.Red;
-                player1wins++;
-                P1score.Text += 1;
-                MessageBox.Show("Player X win!");
+                btn6.BackColor = Color.Red;               
+                PXscore.Text += 1;
+                MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn3.Text == "X" && btn5.Text == "X" && btn7.Text == "X")
             {
                 btn3.BackColor = Color.Red;
                 btn5.BackColor = Color.Red;
-                btn7.BackColor = Color.Red;
-                player1wins++;
-                P1score.Text += 1;
-                MessageBox.Show("Player X win!");
+                btn7.BackColor = Color.Red;                
+                PXscore.Text += 1;
+                MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn1.Text == "O" && btn2.Text == "O" && btn3.Text == "O")
             {
                 btn1.BackColor = Color.Blue;
                 btn2.BackColor = Color.Blue;
-                btn3.BackColor = Color.Blue;
-                player2wins++;
-                P2score.Text += 1;
-                MessageBox.Show("Player O win!");
+                btn3.BackColor = Color.Blue;               
+                POscore.Text += 1;
+                MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn4.Text == "O" && btn5.Text == "O" && btn6.Text == "O")
             {
                 btn4.BackColor = Color.Blue;
                 btn5.BackColor = Color.Blue;
-                btn6.BackColor = Color.Blue;
-                player2wins++;
-                P2score.Text += 1;
-                MessageBox.Show("Player O win!");
+                btn6.BackColor = Color.Blue;               
+                POscore.Text += 1;
+                MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn7.Text == "O" && btn8.Text == "O" && btn9.Text == "O")
             {
                 btn7.BackColor = Color.Blue;
                 btn8.BackColor = Color.Blue;
-                btn9.BackColor = Color.Blue;
-                player2wins++;
-                P2score.Text += 1;
-                MessageBox.Show("Player O win!");
+                btn9.BackColor = Color.Blue;             
+                POscore.Text += 1;
+                MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn1.Text == "O" && btn4.Text == "O" && btn7.Text == "O")
@@ -233,9 +222,8 @@ namespace Tic_Tac_Toe
                 btn1.BackColor = Color.Blue;
                 btn4.BackColor = Color.Blue;
                 btn7.BackColor = Color.Blue;
-                player2wins++;
-                P2score.Text += 1;
-                MessageBox.Show("Player 0 win!"); 
+                POscore.Text += 1;
+                MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn2.Text == "O" && btn5.Text == "O" && btn8.Text == "O")
@@ -243,9 +231,8 @@ namespace Tic_Tac_Toe
                 btn2.BackColor = Color.Blue;
                 btn5.BackColor = Color.Blue;
                 btn8.BackColor = Color.Blue;
-                player2wins++;
-                P2score.Text += 1;
-                MessageBox.Show("Player O win!");
+                POscore.Text += 1;
+                MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn3.Text == "O" && btn6.Text == "O" && btn9.Text == "O")
@@ -253,20 +240,17 @@ namespace Tic_Tac_Toe
                 btn3.BackColor = Color.Blue;
                 btn6.BackColor = Color.Blue;
                 btn9.BackColor = Color.Blue;
-                player2wins++;
-                P2score.Text += 1;
-                MessageBox.Show("Player O win!");
+                POscore.Text += 1;
+                MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn1.Text == "O" && btn5.Text == "O" && btn9.Text == "O")
             {
-                return;
                 btn1.BackColor = Color.Blue;
                 btn5.BackColor = Color.Blue;
                 btn9.BackColor = Color.Blue;
-                player2wins++;
-                P2score.Text += 1;
-                MessageBox.Show("Player O win!");
+                POscore.Text += 1;
+                MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn3.Text == "O" && btn5.Text == "O" && btn7.Text == "O")
@@ -274,9 +258,8 @@ namespace Tic_Tac_Toe
                 btn3.BackColor = Color.Blue;
                 btn5.BackColor = Color.Blue;
                 btn7.BackColor = Color.Blue;
-                player2wins++;
-                P2score.Text += 1;
-                MessageBox.Show("Player O win!");
+                POscore.Text += 1;
+                MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
 
@@ -292,8 +275,7 @@ namespace Tic_Tac_Toe
             btn7.Text = "";
             btn8.Text = "";
             btn9.Text = "";
-            P1score.Text = "";
-            P2score.Text = "";
+           
             btn1.BackColor = Color.White;
             btn2.BackColor = Color.White;
             btn3.BackColor = Color.White;
@@ -303,7 +285,6 @@ namespace Tic_Tac_Toe
             btn7.BackColor = Color.White;
             btn8.BackColor = Color.White;
             btn9.BackColor = Color.White;
-            P1score.Text = "";
 
             GAME = new string[9];
             playerturn = 0;
