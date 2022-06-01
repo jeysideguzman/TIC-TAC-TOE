@@ -19,7 +19,7 @@ namespace Tic_Tac_Toe
         string[] GAME = new string[9];
         int playerturn = 0;
 
-        int playerOXwins = 0;  
+        int playerOXwins;  
         
 
         public string returnsym(int turn)
@@ -261,8 +261,9 @@ namespace Tic_Tac_Toe
                 POscore.Text += 1;
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
+                
             }
-
+            drawchecker();
         }
         private void reset()
         {
@@ -275,7 +276,8 @@ namespace Tic_Tac_Toe
             btn7.Text = "";
             btn8.Text = "";
             btn9.Text = "";
-           
+            PXscore.Text = "";
+            POscore.Text = "";
             btn1.BackColor = Color.White;
             btn2.BackColor = Color.White;
             btn3.BackColor = Color.White;
@@ -287,8 +289,16 @@ namespace Tic_Tac_Toe
             btn9.BackColor = Color.White;
 
             GAME = new string[9];
-            playerturn = 0;
-            
+            playerturn = 0;   
+        }
+        public void drawchecker()
+        {
+          if (playerturn == 9)
+            {
+                reset();
+                MessageBox.Show("It's a Draw, Goodjob!", "Tic Tac Toe");
+            }
+
         }
     }
 }
