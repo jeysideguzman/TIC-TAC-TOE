@@ -33,8 +33,6 @@ namespace Tic_Tac_Toe
             }
         }
 
-
-
         private void TicTacToe_Load(object sender, EventArgs e)
         {
 
@@ -170,6 +168,63 @@ namespace Tic_Tac_Toe
                 btn5.BackColor = Color.Red;
                 btn7.BackColor = Color.Red;
                 MessageBox.Show("Player X win!");
+            }
+            else if (btn1.Text == "O" && btn2.Text == "0" && btn3.Text == "O")
+            {
+                btn1.BackColor = Color.Blue;
+                btn2.BackColor = Color.Blue;
+                btn3.BackColor = Color.Blue;
+                MessageBox.Show("Player O win!");
+            }
+            else if (btn4.Text == "O" && btn5.Text == "O" && btn6.Text == "O")
+            {
+                btn4.BackColor = Color.Blue;
+                btn5.BackColor = Color.Blue;
+                btn6.BackColor = Color.Blue;
+                MessageBox.Show("Player O win!");
+            }
+            else if (btn7.Text == "O" && btn8.Text == "O" && btn9.Text == "O")
+            {
+                btn7.BackColor = Color.Blue;
+                btn8.BackColor = Color.Blue;
+                btn9.BackColor = Color.Blue;
+                MessageBox.Show("Player O win!");
+            }
+            else if (btn1.Text == "O" && btn4.Text == "O" && btn7.Text == "O")
+            {
+                btn1.BackColor = Color.Blue;
+                btn4.BackColor = Color.Blue;
+                btn7.BackColor = Color.Blue;
+                MessageBox.Show("Player 0 win!");
+            }
+            else if (btn2.Text == "O" && btn5.Text == "O" && btn8.Text == "O")
+            {
+                btn2.BackColor = Color.Blue;
+                btn5.BackColor = Color.Blue;
+                btn8.BackColor = Color.Blue;
+                MessageBox.Show("Player O win!");
+            }
+            else if (btn3.Text == "O" && btn6.Text == "O" && btn9.Text == "O")
+            {
+                btn3.BackColor = Color.Blue;
+                btn6.BackColor = Color.Blue;
+                btn9.BackColor = Color.Blue;
+                MessageBox.Show("Player O win!");
+            }
+            else if (btn1.Text == "O" && btn5.Text == "O" && btn9.Text == "O")
+            {
+                return;
+                btn4.BackColor = Color.Blue;
+                btn5.BackColor = Color.Blue;
+                btn6.BackColor = Color.Blue;
+                MessageBox.Show("Player O win!");
+            }
+            else if (btn3.Text == "O" && btn5.Text == "O" && btn7.Text == "O")
+            {
+                btn3.BackColor = Color.Blue;
+                btn5.BackColor = Color.Blue;
+                btn7.BackColor = Color.Blue;
+                MessageBox.Show("Player O win!");
             }
         }
     }
