@@ -1,0 +1,11 @@
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\bin\Debug\Tic-Tac-Toe.exe.config
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\bin\Debug\Tic-Tac-Toe.exe
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\bin\Debug\Tic-Tac-Toe.pdb
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.csproj.AssemblyReference.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.csproj.SuggestedBindingRedirects.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\obj\Debug\Tic_Tac_Toe.TicTacToe.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\obj\Debug\Tic_Tac_Toe.Properties.Resources.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.csproj.GenerateResource.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.csproj.CoreCompileInputs.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.exe
+C:\Users\JOHN CARLO\OOP PROGRAMS\Tic-Tac-Toe\obj\Debug\Tic-Tac-Toe.pdb

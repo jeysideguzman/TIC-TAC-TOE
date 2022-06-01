@@ -16,10 +16,5 @@ namespace Tic_Tac_Toe
         {
             InitializeComponent();
         }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
