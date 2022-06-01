@@ -41,8 +41,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnrestart = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.P1score = new System.Windows.Forms.Label();
+            this.P2score = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn1
@@ -190,29 +190,29 @@
             this.btn8.UseVisualStyleBackColor = false;
             this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
-            // label6
+            // P1score
             // 
-            this.label6.AutoSize = true;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(470, 184);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(34, 39);
-            this.label6.TabIndex = 20;
-            this.label6.Text = "0";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.P1score.AutoSize = true;
+            this.P1score.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.P1score.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P1score.Location = new System.Drawing.Point(470, 184);
+            this.P1score.Name = "P1score";
+            this.P1score.Size = new System.Drawing.Size(34, 39);
+            this.P1score.TabIndex = 20;
+            this.P1score.Text = "0";
+            this.P1score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label7
+            // P2score
             // 
-            this.label7.AutoSize = true;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(650, 184);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 39);
-            this.label7.TabIndex = 21;
-            this.label7.Text = "0";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.P2score.AutoSize = true;
+            this.P2score.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.P2score.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.P2score.Location = new System.Drawing.Point(650, 184);
+            this.P2score.Name = "P2score";
+            this.P2score.Size = new System.Drawing.Size(34, 39);
+            this.P2score.TabIndex = 21;
+            this.P2score.Text = "0";
+            this.P2score.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TicTacToe
             // 
@@ -220,8 +220,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 459);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.P2score);
+            this.Controls.Add(this.P1score);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btnrestart);
             this.Controls.Add(this.label4);
@@ -260,8 +260,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnrestart;
         private System.Windows.Forms.Button btn8;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label P1score;
+        private System.Windows.Forms.Label P2score;
     }
 }
 
