@@ -18,9 +18,7 @@ namespace Tic_Tac_Toe
         }
         string[] GAME = new string[9];
         int playerturn = 0;
-
-        int playerOXwins;  
-        
+        int playerOXwins;
 
         public string returnsym(int turn)
         {
@@ -123,7 +121,7 @@ namespace Tic_Tac_Toe
                 btn1.BackColor = Color.Red;
                 btn2.BackColor = Color.Red;
                 btn3.BackColor = Color.Red;               
-                PXscore.Text += 1;
+                PXscore.Text += "*";
                 MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -132,7 +130,7 @@ namespace Tic_Tac_Toe
                 btn4.BackColor = Color.Red;
                 btn5.BackColor = Color.Red;
                 btn6.BackColor = Color.Red;               
-                PXscore.Text += 1;
+                PXscore.Text += "*";
                 MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -141,7 +139,7 @@ namespace Tic_Tac_Toe
                 btn7.BackColor = Color.Red;
                 btn8.BackColor = Color.Red;
                 btn9.BackColor = Color.Red;                
-                PXscore.Text += 1;
+                PXscore.Text += "*";
                 MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -150,7 +148,7 @@ namespace Tic_Tac_Toe
                 btn1.BackColor = Color.Red;
                 btn4.BackColor = Color.Red;
                 btn7.BackColor = Color.Red;              
-                PXscore.Text += 1;
+                PXscore.Text += "*";
                 MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -159,7 +157,7 @@ namespace Tic_Tac_Toe
                 btn2.BackColor = Color.Red;
                 btn5.BackColor = Color.Red;
                 btn8.BackColor = Color.Red;                
-                PXscore.Text += 1;
+                PXscore.Text += "*";
                 MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -168,16 +166,16 @@ namespace Tic_Tac_Toe
                 btn3.BackColor = Color.Red;
                 btn6.BackColor = Color.Red;
                 btn9.BackColor = Color.Red;                
-                PXscore.Text += 1;
+                PXscore.Text += "*";
                 MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
             else if (btn1.Text == "X" && btn5.Text == "X" && btn9.Text == "X")
             {
-                btn4.BackColor = Color.Red;
+                btn1.BackColor = Color.Red;
                 btn5.BackColor = Color.Red;
-                btn6.BackColor = Color.Red;               
-                PXscore.Text += 1;
+                btn9.BackColor = Color.Red;               
+                PXscore.Text += "*";
                 MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -186,7 +184,7 @@ namespace Tic_Tac_Toe
                 btn3.BackColor = Color.Red;
                 btn5.BackColor = Color.Red;
                 btn7.BackColor = Color.Red;                
-                PXscore.Text += 1;
+                PXscore.Text += "*";
                 MessageBox.Show("Player X Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -195,7 +193,7 @@ namespace Tic_Tac_Toe
                 btn1.BackColor = Color.Blue;
                 btn2.BackColor = Color.Blue;
                 btn3.BackColor = Color.Blue;               
-                POscore.Text += 1;
+                POscore.Text += "*";
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -204,7 +202,7 @@ namespace Tic_Tac_Toe
                 btn4.BackColor = Color.Blue;
                 btn5.BackColor = Color.Blue;
                 btn6.BackColor = Color.Blue;               
-                POscore.Text += 1;
+                POscore.Text += "*";
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -213,7 +211,7 @@ namespace Tic_Tac_Toe
                 btn7.BackColor = Color.Blue;
                 btn8.BackColor = Color.Blue;
                 btn9.BackColor = Color.Blue;             
-                POscore.Text += 1;
+                POscore.Text += "*";
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -222,7 +220,7 @@ namespace Tic_Tac_Toe
                 btn1.BackColor = Color.Blue;
                 btn4.BackColor = Color.Blue;
                 btn7.BackColor = Color.Blue;
-                POscore.Text += 1;
+                POscore.Text += "*";
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -231,7 +229,7 @@ namespace Tic_Tac_Toe
                 btn2.BackColor = Color.Blue;
                 btn5.BackColor = Color.Blue;
                 btn8.BackColor = Color.Blue;
-                POscore.Text += 1;
+                POscore.Text += "*";
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -240,7 +238,7 @@ namespace Tic_Tac_Toe
                 btn3.BackColor = Color.Blue;
                 btn6.BackColor = Color.Blue;
                 btn9.BackColor = Color.Blue;
-                POscore.Text += 1;
+                POscore.Text += "*";
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -249,7 +247,7 @@ namespace Tic_Tac_Toe
                 btn1.BackColor = Color.Blue;
                 btn5.BackColor = Color.Blue;
                 btn9.BackColor = Color.Blue;
-                POscore.Text += 1;
+                POscore.Text += "*";
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
                 reset();
             }
@@ -258,13 +256,13 @@ namespace Tic_Tac_Toe
                 btn3.BackColor = Color.Blue;
                 btn5.BackColor = Color.Blue;
                 btn7.BackColor = Color.Blue;
-                POscore.Text += 1;
+                POscore.Text += "*";
                 MessageBox.Show("Player O Wins!", "Tic Tac Toe");
-                reset();
-                
+                reset();  
             }
             drawchecker();
         }
+
         private void reset()
         {
             btn1.Text = "";
@@ -276,8 +274,6 @@ namespace Tic_Tac_Toe
             btn7.Text = "";
             btn8.Text = "";
             btn9.Text = "";
-            PXscore.Text = "";
-            POscore.Text = "";
             btn1.BackColor = Color.White;
             btn2.BackColor = Color.White;
             btn3.BackColor = Color.White;
@@ -287,10 +283,10 @@ namespace Tic_Tac_Toe
             btn7.BackColor = Color.White;
             btn8.BackColor = Color.White;
             btn9.BackColor = Color.White;
-
             GAME = new string[9];
             playerturn = 0;   
         }
+
         public void drawchecker()
         {
           if (playerturn == 9)
@@ -298,12 +294,18 @@ namespace Tic_Tac_Toe
                 reset();
                 MessageBox.Show("It's a Draw, Goodjob!", "Tic Tac Toe");
             }
-
         }
 
         private void btnrestart_Click(object sender, EventArgs e)
         {
             reset();
+        }
+
+        private void btnNewGame_Click(object sender, EventArgs e)
+        {
+            reset();
+            POscore.Text = "";
+            PXscore.Text = "";  
         }
     }
 }
