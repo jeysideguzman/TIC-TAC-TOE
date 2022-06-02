@@ -139,7 +139,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gray;
+            this.label1.BackColor = System.Drawing.Color.GreenYellow;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(86, 8);
@@ -214,6 +214,7 @@
             this.btnrestart.TabIndex = 22;
             this.btnrestart.Text = "Restart";
             this.btnrestart.UseVisualStyleBackColor = false;
+            this.btnrestart.Click += new System.EventHandler(this.btnrestart_Click);
             // 
             // label2
             // 
@@ -251,7 +252,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.PaleGreen;
             this.ClientSize = new System.Drawing.Size(846, 484);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);

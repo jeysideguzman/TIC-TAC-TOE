@@ -300,5 +300,10 @@ namespace Tic_Tac_Toe
             }
 
         }
+
+        private void btnrestart_Click(object sender, EventArgs e)
+        {
+            reset();
+        }
     }
 }
