@@ -305,7 +305,7 @@ namespace Tic_Tac_Toe
         {
             reset();
             POscore.Text = "";
-            PXscore.Text = "";  
+            PXscore.Text = "";
         }
     }
 }
